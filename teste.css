@@ -1,0 +1,147 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+	background: #1b1b1b;
+	width: 100%;
+	min-height: 10vh;
+}
+
+.caixa {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 200px;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 2rem;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.imagem-frase {
+	min-height: 100vh;
+	/*width: 100%;*/
+	background-image: url(background-div.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+}
+
+.imagem-frase h1 {
+	color: #1b1b1b;
+	position: absolute;
+	margin-top: 20%;
+	font-size: 4rem;
+	margin-left: 2%;
+	z-index: 15;
+
+}
+
+.imagem-frase p {
+	color: #1b1b1b;
+	position: absolute;
+	margin-top: 27%;
+	font-size: 1.1rem;
+	margin-left: 2%;
+	z-index: 15;
+}
+
+.bio {
+	min-height: 100vh;
+	background-image: url(plano-de-fundo-avengers.jpg);
+	background-size: cover;
+}
+
+.info {
+	display: inline-block;
+	width: 30%;
+	padding: 1rem;
+	border: none;
+	border-radius: 10px;
+	backdrop-filter: blur(8px);
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-bottom: 100%;
+	margin: 34% 0 0 2%;
+
+
+}
+
+.info h1 {
+	color: #1b1b1b;
+	font-size: 4rem;
+	margin-left: 2%;
+}
+
+.info p {
+	color: #1b1b1b;
+	font-size: 1.1rem;
+	margin-left: 2%;
+	line-height: 1.5rem;
+}
+
+footer {
+	background: #1b1b1b;
+	width: 100%;
+	min-height: 10vh;
+}
+
+footer p {
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	padding: 4rem;
+}
+
+@media screen and (max-device-width: 480px) {
+	nav {
+		position: static;
+	}
+
+	nav li {
+		display: block;
+	}
+
+	.imagem-frase {
+		min-height: 44vh;
+		max-width: 50vw;
+	}
+
+	.imagem-frase p {
+		margin-top: 40%;
+	}
+
+	footer p {
+		font-size: 1.3rem;
+	}
+}
+	
+
+
+
+
+
+
+
+
+
+
