@@ -118,16 +118,38 @@ footer p {
 	}
 
 	nav li {
-		display: block;
+		display: inline-block;
+		padding: 0.5rem;
+	}
+
+	nav a {
+		font-size: 2rem;
 	}
 
 	.imagem-frase {
-		min-height: 44vh;
-		max-width: 50vw;
+		background-image: url(background-avenger-mobile.jpg);
+		background-size: cover;
+		min-height: 100vh;
 	}
 
 	.imagem-frase p {
-		margin-top: 40%;
+		margin-top: 80%;
+		font-size: 2rem;
+		color: white
+	}
+
+	.bio {
+		background-image: url(background-info-mobile.png);
+		background-size: cover;
+	}
+
+	.info {
+		width: 60%;
+		margin: 90% 0 0 2%;
+	}
+
+	.info p {
+		color: white;
 	}
 
 	footer p {
